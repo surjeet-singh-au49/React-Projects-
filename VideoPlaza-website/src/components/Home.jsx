@@ -52,7 +52,8 @@ const Home = () => {
 
 const MyCarousel = () => {
 return(
-<Carousel  infiniteLoop interval={3000} showStatus={false} showThumbs={false} showArrows={false}>
+
+<Carousel autoPlay infiniteLoop interval={3000} showStatus={false} showThumbs={false} showArrows={false}>
 
 {/*1st image box*/}
 <Box w="full" h={'100vh'}>
